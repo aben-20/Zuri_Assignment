@@ -1,4 +1,4 @@
-class Category:
+class Budget:
     
     def __init__(self, category: str):
         
@@ -47,7 +47,4 @@ class Category:
                 raise ValueError("Create category for destination!")
             
         return False
-    
-    def __repr__(self):
-        
-        return "A budget app"  
+   
